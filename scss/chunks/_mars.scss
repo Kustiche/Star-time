@@ -1,0 +1,9 @@
+.mars {
+  &::after {
+    background-image: url('../../img/mars.png');
+  }
+
+  &__title {
+    margin-bottom: 90px;
+  }
+}

@@ -161,3 +161,10 @@ body {
 .sun__text {
   text-align: right;
 }
+
+.mars::after {
+  background-image: url("../../img/mars.png");
+}
+.mars__title {
+  margin-bottom: 90px;
+}
