@@ -16,9 +16,14 @@
     margin-right: 55px;
     font-family: 'BalsamiqSans', sans-serif;
     font-size: 36px;
+    transition: color 0.4s;
 
     &:last-child {
       margin-right: 0;
+    }
+
+    &:hover {
+      color: #fcad42;
     }
   }
 }
