@@ -1,0 +1,8 @@
+.moon {
+  &::after {
+    background-image: url('../../img/moon.png');
+  }
+  &__title {
+    margin-bottom: 90px;
+  }
+}
