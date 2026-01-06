@@ -2,11 +2,11 @@
 @use 'settings';
 @use 'interface';
 
-@use 'chunks/header';
-@use 'chunks/hero';
-@use 'chunks/moon';
-@use 'chunks/sun';
-@use 'chunks/mars';
-@use 'chunks/planets';
-@use 'chunks/photos';
-@use 'chunks/footer';
+@use 'chunks/index/header';
+@use 'chunks/index/hero';
+@use 'chunks/index/moon';
+@use 'chunks/index/sun';
+@use 'chunks/index/mars';
+@use 'chunks/index/planets';
+@use 'chunks/index/photos';
+@use 'chunks/index/footer';
