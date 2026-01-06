@@ -132,7 +132,7 @@ body {
   position: absolute;
   width: 1350px;
   height: 435px;
-  background-image: url("../../../img/index/hero/earth.png");
+  background-image: url("../img/index/hero/earth.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -149,14 +149,14 @@ body {
 }
 
 .moon::after {
-  background-image: url("../../../img/index/moon/moon.png");
+  background-image: url("../img/index/moon/moon.png");
 }
 .moon__title {
   margin-bottom: 90px;
 }
 
 .sun::after {
-  background-image: url("../../../img/index/sun/sun.png");
+  background-image: url("../img/index/sun/sun.png");
 }
 .sun__title {
   margin-bottom: 90px;
@@ -167,7 +167,7 @@ body {
 }
 
 .mars::after {
-  background-image: url("../../../img/index/mars/mars.png");
+  background-image: url("../img/index/mars/mars.png");
 }
 .mars__title {
   margin-bottom: 90px;
