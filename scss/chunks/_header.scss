@@ -1,0 +1,24 @@
+.header {
+  padding: 35px 0;
+  background-color: #72a25d;
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-item {
+    margin-right: 55px;
+    font-family: 'BalsamiqSans', sans-serif;
+    font-size: 36px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

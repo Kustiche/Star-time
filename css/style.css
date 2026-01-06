@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "BalsamiqSans";
+  src: url("../fonts/BalsamiqSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BellotaText";
+  src: url("../fonts/BellotaText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "BellotaText", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1230px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-reset {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section {
+  padding: 120px 0;
+  background-color: #3f6485;
+}
+
+.header {
+  padding: 35px 0;
+  background-color: #72a25d;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu-item {
+  margin-right: 55px;
+  font-family: "BalsamiqSans", sans-serif;
+  font-size: 36px;
+}
+.header__menu-item:last-child {
+  margin-right: 0;
+}

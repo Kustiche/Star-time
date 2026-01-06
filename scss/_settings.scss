@@ -8,14 +8,28 @@ html {
   box-sizing: inherit;
 }
 
+$white-color: #ffffff;
+
 body {
   margin: 0;
-  color: #000000;
-  background-color: #ffffff;
+  font-family: 'BellotaText', sans-serif;
+  font-size: 40px;
+  color: $white-color;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1230px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-reset {
+  color: $white-color;
+  text-decoration: none;
 }
