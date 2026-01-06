@@ -1,0 +1,14 @@
+.sun {
+  &::after {
+    background-image: url('../../img/sun.png');
+  }
+
+  &__title {
+    margin-bottom: 90px;
+    text-align: right;
+  }
+
+  &__text {
+    text-align: right;
+  }
+}

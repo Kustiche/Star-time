@@ -51,12 +51,12 @@ body {
   background-color: #3f6485;
 }
 
-.section-bkg-img-left {
+.section-bkg-img-right {
   position: relative;
   padding: 385px 0;
   background-color: #3f6485;
 }
-.section-bkg-img-left::after {
+.section-bkg-img-right::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -69,12 +69,12 @@ body {
   background-position: center;
 }
 
-.section-bkg-img-right {
+.section-bkg-img-left {
   position: relative;
   padding: 385px 0;
   background-color: #3f6485;
 }
-.section-bkg-img-right::after {
+.section-bkg-img-left::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -149,4 +149,15 @@ body {
 }
 .moon__title {
   margin-bottom: 90px;
+}
+
+.sun::after {
+  background-image: url("../../img/sun.png");
+}
+.sun__title {
+  margin-bottom: 90px;
+  text-align: right;
+}
+.sun__text {
+  text-align: right;
 }
