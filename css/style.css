@@ -168,3 +168,51 @@ body {
 .mars__title {
   margin-bottom: 90px;
 }
+
+.planets__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planets__title {
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: 48px;
+}
+.planets__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 170px;
+  width: 100%;
+}
+.planets__list {
+  padding-left: 55px;
+}
+.planets__item {
+  position: relative;
+  margin-bottom: 10px;
+}
+.planets__item::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+.planets__item:last-child {
+  margin-bottom: 0;
+}
+.planets__img {
+  width: 315px;
+  height: 315px;
+}
+.planets__text {
+  text-align: center;
+  max-width: 860px;
+  color: #fcad42;
+}
