@@ -128,7 +128,7 @@ body {
   position: absolute;
   width: 1350px;
   height: 435px;
-  background-image: url("../../img/earth.png");
+  background-image: url("../../img/hero/earth.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -145,14 +145,14 @@ body {
 }
 
 .moon::after {
-  background-image: url("../../img/moon.png");
+  background-image: url("../../img/moon/moon.png");
 }
 .moon__title {
   margin-bottom: 90px;
 }
 
 .sun::after {
-  background-image: url("../../img/sun.png");
+  background-image: url("../../img/sun/sun.png");
 }
 .sun__title {
   margin-bottom: 90px;
@@ -163,7 +163,7 @@ body {
 }
 
 .mars::after {
-  background-image: url("../../img/mars.png");
+  background-image: url("../../img/mars/mars.png");
 }
 .mars__title {
   margin-bottom: 90px;
@@ -215,4 +215,28 @@ body {
   text-align: center;
   max-width: 860px;
   color: #fcad42;
+}
+
+.photos {
+  padding-bottom: 140px;
+}
+.photos__title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.photos__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+}
+.photos__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.photos__img {
+  border-radius: 10px;
+  width: 426px;
+  height: 320px;
 }
