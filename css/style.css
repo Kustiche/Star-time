@@ -51,6 +51,11 @@ body {
   background-color: #3f6485;
 }
 
+.title {
+  font-family: "BalsamiqSans", sans-serif;
+  font-size: 64px;
+}
+
 .header {
   padding: 35px 0;
   background-color: #72a25d;
@@ -70,4 +75,32 @@ body {
 }
 .header__menu-item:last-child {
   margin-right: 0;
+}
+
+.hero {
+  position: relative;
+  padding: 120px 0 645px 0;
+  background-color: #c0955b;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 1350px;
+  height: 435px;
+  background-image: url("../../img/earth.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero__title {
+  margin: 0;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.hero__text {
+  margin: 0;
+  text-align: center;
 }

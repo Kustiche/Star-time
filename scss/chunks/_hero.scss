@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  padding: 120px 0 645px 0;
+  background-color: #c0955b;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 1350px;
+    height: 435px;
+    background-image: url('../../img/earth.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+
+  &__text {
+    margin: 0;
+    text-align: center;
+  }
+}
